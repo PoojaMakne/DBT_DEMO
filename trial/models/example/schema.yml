@@ -20,3 +20,14 @@ models:
           - unique
           - not_null
 
+
+  - name: sequence
+    description: "A starter dbt model"
+    columns:
+      - name: NAMEDEST
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+
