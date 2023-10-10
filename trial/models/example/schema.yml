@@ -5,7 +5,7 @@ models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
     columns:
-      - name: EMPLOYEE_ID
+      - name: EMPLOYEEID
         description: "The primary key for this table"
         tests:
           - unique
@@ -23,7 +23,7 @@ models:
   - name: sequence
     description: "A starter dbt model"
     columns:
-      - name: book_id
+      - name: NAMEORIG
         description: "The primary key for this table"
         tests:
           - unique
