@@ -20,10 +20,3 @@ models:
           - unique
           - not_null
 
-  - name: sequence
-    description: "A starter dbt model"
-    columns:
-      - name: NAMEORIG
-        description: "The primary key for this table"
-        tests:
-          - not_null
