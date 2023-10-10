@@ -2,4 +2,4 @@
 
 
 select *
-from DEMO.PUBLIC.book
+from DEMO.SQL_SERVER_DBO.SAMPLE
