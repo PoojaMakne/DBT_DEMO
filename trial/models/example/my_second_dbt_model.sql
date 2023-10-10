@@ -2,6 +2,5 @@
 {{ config(materialized='table') }}
 
 
-SELECT students.student_id, student_name, student_age, course_name
-FROM DEMO.PUBLIC.students
-INNER JOIN DEMO.PUBLIC.courses ON students.student_id = courses.student_id
+select * from
+  DEMO.SQL_SERVER_DBO.EMPLOYEES
