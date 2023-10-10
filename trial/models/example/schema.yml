@@ -24,7 +24,7 @@ models:
   - name: third_model
     description: "A starter dbt model"
     columns:
-      - name: NAMEDEST
+      - name: SESSION_TYPE
         description: "The primary key for this table"
         tests:
           - unique
